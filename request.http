@@ -1,0 +1,12 @@
+@server = https://scaling-xylophone-xjg5rp75vgr2v676-8080.app.github.dev
+###
+
+GET {{server}}/api/instrumentos
+
+###
+
+POST  {{server}}/api/instrumentos
+Content-Type: application/json
+
+{"nombre": "Bateria", "categoria":"Percusion", "descripcion": "Este instrumento está formada por diversas piezas"}
+
